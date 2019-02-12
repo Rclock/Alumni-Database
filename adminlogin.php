@@ -157,14 +157,11 @@ $query1 = "select username from Users where username='$user' and password='$pass
 		{
 		echo 'worked';
 		}
-		else 
-		{
-		echo 'fuck';
-		}
+	 
 	}
 	else
 	{
-	echo 'fuck';
+	echo 'connection failed.';
 
 	}
 
